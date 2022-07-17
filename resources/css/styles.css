@@ -1,0 +1,137 @@
+/* Coded by Jeremaquai*/
+
+/* Global Styles */
+body {
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Zilla Slab", serif;
+}
+
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+a {
+    color: rgb(48, 128, 64);
+}
+
+a:hover {
+    color: rgb(69, 241, 103);
+}
+
+.row {
+    padding: 10px;
+}
+
+/* Nav Bar Added Styles */
+header {
+    width: auto;
+}
+
+.navbar-brand {
+    font-family: "New Rocker", cursive;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-image: url(../images/rainbow_workout_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    align-items: center;
+    display: flex;
+    min-height: 500px;
+    background-color: rgb(0, 0, 0); 
+}
+
+
+
+.jumbotron h1, .jumbotron h2 {
+    font-family: "Alfa Slab One", cursive;
+    color: rgb(48, 128, 64);
+    text-shadow: 5px 5px rgb(0, 0, 0);
+}
+
+.text-container {
+    width: 100%;
+}
+
+/* Colors Page Styles */
+
+.container {
+    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin: auto;
+    
+}
+
+.color_container {
+    border: 1px solid black;
+    height: 250px;
+    width: 95%;
+    align-items: center;
+    
+}
+
+.color_container h3 {
+    position: relative;
+    top: 100px;
+}
+
+.color_container#green {
+    background-color: rgb(48, 128, 64);
+    border-color: rgb(48, 128, 64);
+    color: rgb(255, 255, 255);
+}
+
+.color_container#light-green {
+    background-color: rgb(69, 241, 103);
+    border-color: rgb(69, 241, 103);
+    color: rgb(255, 255, 255);
+}
+
+.color_container#black {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* Fonts Page Styles*/
+.text_container {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 1rem;
+}
+
+.font_name {
+    text-decoration: underline;
+}
+
+.new_rocker {
+    font-family: "New Rocker", cursive;
+}
+
+.alfa_slab_one {
+    font-family: "Alfa Slab One", cursive;
+}
+
+.zilla_slab {
+    font-family: "Zilla Slab", serif;
+}
+
+/* Footer Section Styles */
+
+footer {
+    margin-top: 30px;
+}
